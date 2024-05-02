@@ -19,6 +19,12 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
+const surucuYasi = 31;
+  if(surucuYasi > 18) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
@@ -183,9 +189,9 @@ function sesliHarfSayaci(/*buraya kodunu yazabilirsin*/) {
 }
 
 /* Lütfen bu satırın alt tarafını değiştirmeyin */
-function sa() {
+function carpma(sayi1, sayi2) {
   console.log("Kodlar çalışıyor");
-  return "as";
+  return sayi1 * sayi2;
 }
 sa();
 /* Bu satırdan sonrasını değiştirmeyin */
