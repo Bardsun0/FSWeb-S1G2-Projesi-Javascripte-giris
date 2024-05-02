@@ -189,9 +189,8 @@ function sesliHarfSayaci(/*buraya kodunu yazabilirsin*/) {
 }
 
 /* Lütfen bu satırın alt tarafını değiştirmeyin */
-function carpma(sayi1, sayi2) {
+function sa() {
   console.log("Kodlar çalışıyor");
-  return sayi1 * sayi2;
 }
 sa();
 /* Bu satırdan sonrasını değiştirmeyin */
